@@ -1,0 +1,283 @@
+body {
+    background-color: #363636;
+    margin: 0;
+    font-size: 12pt;
+}
+
+div,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a > p {
+    text-decoration: underline;
+}
+
+p {
+    color: #f8f1e3;
+    line-height: 1.5em;
+}
+
+
+/* 截图 */
+
+.screen {
+    max-width: 100%;
+    width: 367px;
+    height: 555px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.screen1 {
+    background-image: url(../images/screen/screen-1.png);
+}
+
+.screen2 {
+    background-image: url(../images/screen/screen-2.png);
+}
+
+.screen3 {
+    background-image: url(../images/screen/screen-3.png);
+}
+
+.screen4 {
+    background-image: url(../images/screen/screen-4.png);
+}
+
+.screen5 {
+    background-image: url(../images/screen/screen-5.png);
+}
+
+
+/* 文字 */
+
+.text {
+    width: 322px;
+    height: 108px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text1 {
+    background-image: url(../images/screen/text-1.png);
+}
+
+.text2 {
+    background-image: url(../images/screen/text-2.png);
+}
+
+.text3 {
+    background-image: url(../images/screen/text-3.png);
+}
+
+.text4 {
+    background-image: url(../images/screen/text-4.png);
+}
+
+.text5 {
+    background-image: url(../images/screen/text-5.png);
+}
+
+.logo {
+    width: 242px;
+    height: 85px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images/logo.png");
+}
+
+
+/* page-dots */
+
+#page-dots {
+    width: 100px;
+    height: 10px;
+}
+
+#indicator,
+#indicator-background {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#indicator-background {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+    background: #555;
+}
+
+#dotty {
+    background: #CCC;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+#header {
+    background-color: #ffe468;
+    background-size: 458px 422px;
+    background-image: url(../images/pattern.png);
+    overflow: hidden;
+}
+
+
+/****************************/
+
+#footer {
+    background-color: #363636;
+}
+
+.scroll-wapper {
+    width: 100%;
+    height: 100%;
+}
+
+.scroller {
+    width: 500%;
+    position: relative;
+    height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    #header {
+        text-align: center;
+    }
+    .logo {
+        margin: 20px auto;
+    }
+    .scroll-wapper {
+        width: 100%;
+        height: 555px;
+    }
+    .text {
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    .page {
+        width: 20%;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #products > img {
+        margin-right: -8px;
+    }
+    #page-dots {
+        position: relative;
+        left: 50%;
+        top: -106px;
+        margin-left: -55px;
+    }
+    #download {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    #footer {
+        text-align: center;
+    }
+    .bottom-cell {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .bottom-cell > img {
+        padding-bottom: 10px;
+    }
+    .screen {
+        width: 320px;
+        height: 484px;
+    }
+    .text {
+        width: 280px;
+        height: 94px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .text {
+        position: relative;
+        top: 100px;
+    }
+    #page-dots {
+        position: absolute;
+        left: 50%;
+        top: 620px;
+        margin-left: -55px;
+        margin-top: 20px;
+    }
+    .page {
+        width: 20%;
+        float: left;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        top: 130px;
+    }
+    /* header */
+    #header {
+        width: 100%;
+        height: 620px;
+        z-index: -1;
+    }
+    .logo {
+        position: absolute;
+        left: 30px;
+        top: 20px;
+    }
+    #download {
+        position: absolute;
+        left: 50%;
+        top: 390px;
+        margin-left: 110px;
+        margin-top: 80px;
+    }
+    /* bootom */
+    #products > img {
+        margin-top: -18px;
+        margin-right: -8px;
+    }
+    .bottom-cell > img {
+        float: left;
+    }
+    .bottom-cell > div {
+        float: left;
+        margin-left: 20px;
+    }
+    #footer {
+        height: 200px;
+    }
+    #bottom-bar {
+        width: 100%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: center;
+    }
+    .bottom-cell {
+        display: table-row;
+        padding-left: 10px;
+        padding-right: 10px;
+        float: left;
+    }
+}
