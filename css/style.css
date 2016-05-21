@@ -24,6 +24,21 @@ p {
     line-height: 1.5em;
 }
 
+#header {
+    background-color: #ffe468;
+    background-size: 458px 422px;
+    background-image: url(../images/pattern.png);
+    overflow: hidden;
+}
+
+.logo {
+    width: 242px;
+    height: 85px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images/logo.png");
+}
+
 
 /* 截图 */
 
@@ -35,29 +50,6 @@ p {
     background-repeat: no-repeat;
 }
 
-.screen1 {
-    background-image: url(../images/screen/screen-1.png);
-}
-
-.screen2 {
-    background-image: url(../images/screen/screen-2.png);
-}
-
-.screen3 {
-    background-image: url(../images/screen/screen-3.png);
-}
-
-.screen4 {
-    background-image: url(../images/screen/screen-4.png);
-}
-
-.screen5 {
-    background-image: url(../images/screen/screen-5.png);
-}
-
-
-/* 文字 */
-
 .text {
     width: 322px;
     height: 108px;
@@ -65,32 +57,44 @@ p {
     background-repeat: no-repeat;
 }
 
+.screen1 {
+    background-image: url(../images/screen/screen-1.png);
+}
+
 .text1 {
     background-image: url(../images/screen/text-1.png);
+}
+
+.screen2 {
+    background-image: url(../images/screen/screen-2.png);
 }
 
 .text2 {
     background-image: url(../images/screen/text-2.png);
 }
 
+.screen3 {
+    background-image: url(../images/screen/screen-3.png);
+}
+
 .text3 {
     background-image: url(../images/screen/text-3.png);
+}
+
+.screen4 {
+    background-image: url(../images/screen/screen-4.png);
 }
 
 .text4 {
     background-image: url(../images/screen/text-4.png);
 }
 
-.text5 {
-    background-image: url(../images/screen/text-5.png);
+.screen5 {
+    background-image: url(../images/screen/screen-5.png);
 }
 
-.logo {
-    width: 242px;
-    height: 85px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url("../images/logo.png");
+.text5 {
+    background-image: url(../images/screen/text-5.png);
 }
 
 
@@ -128,13 +132,6 @@ p {
     width: 10px;
     height: 10px;
     border-radius: 5px;
-}
-
-#header {
-    background-color: #ffe468;
-    background-size: 458px 422px;
-    background-image: url(../images/pattern.png);
-    overflow: hidden;
 }
 
 
