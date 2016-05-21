@@ -44,7 +44,7 @@ p {
 
 .screen {
     max-width: 100%;
-    width: 367px;
+    width: 380px;
     height: 555px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@ p {
 /* page-dots */
 
 #page-dots {
-    width: 100px;
+    width: 90px;
     height: 10px;
 }
 
@@ -123,7 +123,7 @@ p {
 #dot {
     width: 10px;
     height: 10px;
-    border-radius: 6px;
+    border-radius: 5px;
     background: #555;
 }
 
@@ -200,11 +200,11 @@ p {
     }
     .screen {
         width: 320px;
-        height: 484px;
+        height: 467px;
     }
     .text {
-        width: 280px;
-        height: 94px;
+        width: 271px;
+        height: 91px;
         background-size: contain;
         background-repeat: no-repeat;
     }
