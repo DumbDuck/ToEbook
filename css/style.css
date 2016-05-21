@@ -165,7 +165,7 @@ p {
     }
     .text {
         margin-top: 0px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
     .page {
         width: 20%;
@@ -182,7 +182,7 @@ p {
         position: relative;
         left: 50%;
         top: -106px;
-        margin-left: -55px;
+        margin-left: -47px;
     }
     #download {
         margin-top: 30px;
@@ -219,7 +219,7 @@ p {
         position: absolute;
         left: 50%;
         top: 620px;
-        margin-left: -55px;
+        margin-left: -47px;
         margin-top: 20px;
     }
     .page {
